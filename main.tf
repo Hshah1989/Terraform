@@ -1,8 +1,8 @@
 # configure the aws environment and region
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAS66PEWG3IDN3JWFH"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_vpc" "prod-vpc" {
